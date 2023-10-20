@@ -28,7 +28,8 @@ function myFunction(){
     link.innerHTML = x;
     }
     let test = parseInt(code);
-    if (code.includes('c')) {
+    let code3 = code.includes('c')
+    if (code == true) {
         let text = "";
 	document.getElementById("demo").innerHTML = "111";
 	    for (let x in primenum){
