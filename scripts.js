@@ -27,21 +27,22 @@ function myFunction(){
     link.setAttribute('rel', 'noopener noreferrer');
     link.innerHTML = x;
     }
-    let code3 = code.includes('c')
+    let code3 = code.includes('c');
     let test = parseInt(code);
     if (test < 500 && test > 300){
-        linkopen("YOU GOTTA TYPE! -Putter")
-    }else if{
-        document.getElementById("demo").innerHTML = d.get(code);
+        linkopen("YOU GOTTA TYPE! -Putter");
     }else if (code3 == true) {
         let text = "";
 	document.getElementById("demo").innerHTML = "111";
 	    for (let x in primenum){
 		document.getElementById("demo").innerHTML = "yass";
-		puzzlenum = x**2 + 202 *146
+		let puzzlenum = x**2 + 202 *146;
 		coincode = code.replace("c", "");
-		if puzzlenum == coincode{
+		if (puzzlenum == coincode){
 			MysCoin = MysCoin++
-			document.getElementById("demo").innerHTML = MysCoin; 		
+			document.getElementById("demo").innerHTML = MysCoin; 	
+		}
+    }else{
+	 document.getElementById("demo").innerHTML = d.get(code);	    
     }
 }
