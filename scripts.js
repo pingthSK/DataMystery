@@ -38,9 +38,10 @@ function myFunction(){
 		coincode = code.replace("c", "");
 		if puzzlenum == coincode{
 			MysCoin = MysCoin++
-			document.getElementById("demo").innerHTML = MysCoin;
-			
-    }else if (test < 500 && test > 300){
+			document.getElementById("demo").innerHTML = MysCoin; 		
+    }
+		    
+    if (test < 500 && test > 300){
         linkopen("YOU GOTTA TYPE! -Putter")
     }else{
         document.getElementById("demo").innerHTML = d.get(code);
