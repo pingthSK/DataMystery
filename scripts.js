@@ -1,4 +1,5 @@
 /* Place your JavaScript in this file */
+let MysCoin = 0
 function myFunction(){
     var code = document.getElementById("code").value;
     // Create a Map (Named Data but shorter)
@@ -28,7 +29,13 @@ function myFunction(){
     }
     if (code.includes('c')) {
         let text = "";
-	    for (let x in primenum) 
+	    for (let x in primenum){
+		puzzlenum = x**2 + 202 *146
+		coincode = code.replace("c", "");
+		if puzzlenum == coincode{
+			MysCoin = MysCoin++
+			document.getElementById("demo").innerHTML = MysCoin;
+	    }
     let test = parseInt(code);
     if (test < 500 && test > 300){
         linkopen("YOU GOTTA TYPE! -Putter")
