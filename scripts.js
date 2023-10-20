@@ -27,9 +27,13 @@ function myFunction(){
     link.setAttribute('rel', 'noopener noreferrer');
     link.innerHTML = x;
     }
-    let test = parseInt(code);
     let code3 = code.includes('c')
-    if (code == true) {
+    let test = parseInt(code);
+    if (test < 500 && test > 300){
+        linkopen("YOU GOTTA TYPE! -Putter")
+    }else if{
+        document.getElementById("demo").innerHTML = d.get(code);
+    }else if (code == true) {
         let text = "";
 	document.getElementById("demo").innerHTML = "111";
 	    for (let x in primenum){
@@ -39,11 +43,5 @@ function myFunction(){
 		if puzzlenum == coincode{
 			MysCoin = MysCoin++
 			document.getElementById("demo").innerHTML = MysCoin; 		
-    }
-		    
-    if (test < 500 && test > 300){
-        linkopen("YOU GOTTA TYPE! -Putter")
-    }else{
-        document.getElementById("demo").innerHTML = d.get(code);
     }
 }
