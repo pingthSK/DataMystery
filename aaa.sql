@@ -1,1 +1,9 @@
 SELECT NOW();
+CREATE DATABASE information;
+USE information;
+CREATE TABLE CUSTOMERS (
+   NAME VARCHAR(20) NOT NULL,
+   COIN INT(20) NOT NULL,
+   PRIMARY KEY (ID)
+);
+INSERT INTO movies1 VALUE ("ping", "5");
