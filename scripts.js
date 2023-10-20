@@ -29,7 +29,9 @@ function myFunction(){
     }
     if (code.includes('c')) {
         let text = "";
+	document.getElementById("demo").innerHTML = "111";
 	    for (let x in primenum){
+		document.getElementById("demo").innerHTML = "yass";
 		puzzlenum = x**2 + 202 *146
 		coincode = code.replace("c", "");
 		if puzzlenum == coincode{
