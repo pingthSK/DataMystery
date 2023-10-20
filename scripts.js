@@ -33,7 +33,7 @@ function myFunction(){
         linkopen("YOU GOTTA TYPE! -Putter")
     }else if{
         document.getElementById("demo").innerHTML = d.get(code);
-    }else if (code == true) {
+    }else if (code3 == true) {
         let text = "";
 	document.getElementById("demo").innerHTML = "111";
 	    for (let x in primenum){
