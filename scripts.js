@@ -27,6 +27,7 @@ function myFunction(){
     link.setAttribute('rel', 'noopener noreferrer');
     link.innerHTML = x;
     }
+    let test = parseInt(code);
     if (code.includes('c')) {
         let text = "";
 	document.getElementById("demo").innerHTML = "111";
@@ -37,9 +38,8 @@ function myFunction(){
 		if puzzlenum == coincode{
 			MysCoin = MysCoin++
 			document.getElementById("demo").innerHTML = MysCoin;
-	    }
-    let test = parseInt(code);
-    if (test < 500 && test > 300){
+			
+    }else if (test < 500 && test > 300){
         linkopen("YOU GOTTA TYPE! -Putter")
     }else{
         document.getElementById("demo").innerHTML = d.get(code);
