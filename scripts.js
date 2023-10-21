@@ -31,7 +31,11 @@ function myFunction(){
     let test = parseInt(code);
     if (test < 500 && test > 300){
         linkopen("YOU GOTTA TYPE! -Putter");
-    }else if (code3 == true) {
+    }else{
+	 document.getElementById("demo").innerHTML = d.get(code);	
+    }
+	    
+    if (code3 == true) {
         let text = "";
 	document.getElementById("demo").innerHTML = "111";
 	    for (let x in primenum){
@@ -42,7 +46,5 @@ function myFunction(){
 			MysCoin = MysCoin++
 			document.getElementById("demo").innerHTML = MysCoin; 	
 		}
-    }else{
-	 document.getElementById("demo").innerHTML = d.get(code);	    
     }
 }
